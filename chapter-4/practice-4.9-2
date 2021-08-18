@@ -1,0 +1,5 @@
+public class  {
+    for(int value : moneyList) {
+        System.out.println(value);
+    }
+}
