@@ -1,0 +1,16 @@
+public class Main {
+  public static void main(String[] args) {
+    //   要件1．
+      int[] points;
+      points = new int[4];
+    // 要件2．
+      double[] weight;
+      weight = new double[5];
+    // 要件3．
+      boolean[] answers;
+      answers = new boolean[3];
+    // 要件4．
+      String[] names;
+      names = new String[3];
+  }
+ }
