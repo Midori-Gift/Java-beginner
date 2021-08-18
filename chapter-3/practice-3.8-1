@@ -1,0 +1,18 @@
+public class practice {
+    //1. 変数weightの値が60に等しい
+    if(weight == 60) {
+    }
+    
+    // 2. 変数age1とage2の合計を2倍にしたものが60を超えている。
+    if((age1 * age2) >= 60 ) {
+    }
+    
+    // 3. 変数ageが奇数である。
+    if(age %=2 != 0){
+    }
+    
+    // 4.変数nameの中身の文字列が「奏」と等しい。
+    if(name.equals("奏")){
+    }
+}
+

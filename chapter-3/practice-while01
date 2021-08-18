@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[] args) {
+      System.out.println("0~9までの数字を入力して下さい");
+      int m = new java.util.Scanner(System.in).nextInt();
+      int count = 0;
+      while(m < 10){
+          m++;
+          count++;
+          System.out.println("計算ログ:" + m);
+      }
+      System.out.println("10に到達するまでの計算を実行しました。");
+      System.out.println("while文の繰り返し回数は" + count + "回です。");
+  }
+}
+
