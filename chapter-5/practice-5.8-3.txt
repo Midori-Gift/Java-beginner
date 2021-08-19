@@ -1,0 +1,17 @@
+public class Main {
+  public static void main(String[] args) {
+    String address = "uso800@xxxx.com";
+    String title = "件名なし";
+    String text = "今度、飲みにいきませんか";
+    email(address);
+    email(title, text);
+  }
+  public static void email(String address) {
+    System.out.println(address + "に、以下のメールを送信しました");
+  }
+  public static void email(String title, String text) {
+      System.out.println(title);
+      System.out.println("本文:" + text);
+  }
+}
+
