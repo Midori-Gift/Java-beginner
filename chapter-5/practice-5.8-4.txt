@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(calcTriangleArea());
+        System.out.println(calcCircleArea());
+    }
+    public static double calcTriangleArea(){
+        double bottom = 10.0;
+        double height = 5.0;
+        double ans = bottom * height / 2;
+        return ans;
+    }
+    public static double calcCircleArea() {
+        double radius = 5.0;
+        final double PI = 3.14;
+        double ans = radius * radius * PI;
+        return ans;
+    }
+}
