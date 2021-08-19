@@ -1,0 +1,39 @@
+public class Main {
+    // // 一つ目のメソッド
+    // public static void introduceOnself(String name) {
+    //     System.out.println("吉田");
+    // }
+    // //二つ目のメソッド
+    // public static void introduceOnself(int age) {
+    //     System.out.println(22);
+    // }
+    // public static void introduceOnself(float height) {
+    //     System.out.println(169.7F);
+    // }
+    // public static void introduceOnself(char Eto) {
+    //     System.out.println('兎');
+    // }
+    // public static void main(String[] args){
+    //     System.out.println("ぼくは" + introduceOnself(String name) + "と言います");
+    //     System.out.println(introduceOnself(int age) + "歳で、身長は" + introduceOnself(float height));
+    //     System.out.println("干支は" + introduceOnself(char Eto));
+    // }
+    
+    public static void introduceOnself(String name) {
+        return name;
+    }
+    public static void introduceOnself(int age) {
+:q
+return age;
+    }
+    public static void introduceOnself(float height) {
+        return height;
+    }
+    public static void introduceOnself(char Eto) {
+        return Eto;
+    }
+    public static void main(String[] args) {
+        System.out.println("僕の名前は" + introduceOnself("Yoshida"));
+        System.out.println(introduceOnself(169.7F) + "cm" + introduceOnself(22) + "歳" + "干支は" +  introduceOnself('兎'));
+    }
+}

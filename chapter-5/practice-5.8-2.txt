@@ -1,0 +1,18 @@
+public class Main {
+  public static void main(String[] args) {
+    //   メソッドの呼び出し
+    email();
+  }
+  public static void email() {
+    // メール要素の定義
+      String Stringtitle = "メールのタイトル";
+      String Stringaddress = "メールの宛先アドレス";
+      String Stringtext = "メールの本文";
+    //  画面への出力
+        System.out.println(Stringaddress + "に以下のメールを送信しました。");
+        System.out.println("件名:" + Stringtitle);
+        System.out.println("本文" + Stringtext);
+  }
+}
+
+
