@@ -20,12 +20,13 @@ public class Cleric {
 		}
 	}
 
-	public void pray() {
+	public void pray(int sec) {
 		int r = new java.util.Random().nextInt(3);
 		int sec = 3;
 		this.mp += sec + r;
 		if(mp > MAX_MP) {
 			this.mp = 10;
 		}
+		
 	}
 }
