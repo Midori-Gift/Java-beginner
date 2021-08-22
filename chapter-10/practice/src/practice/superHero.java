@@ -1,5 +1,13 @@
 package practice;
 
-public class superHero {
-
+public class superHero extends Hero{
+	boolean flying;
+	public void fly() {
+		this.flying = true;
+		System.out.println("飛び上がった");
+	}
+	 public void land() {
+		 this.flying = false;
+		 System.out.println("着地した");
+	 }
 }
