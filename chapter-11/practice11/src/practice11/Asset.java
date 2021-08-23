@@ -1,5 +1,5 @@
 package practice11;
 
-public class Asset {
-
+public interface Asset {
+	
 }

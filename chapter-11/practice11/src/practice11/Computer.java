@@ -1,6 +1,6 @@
 package practice11;
 
-public class Computer implements TrangibleAsset{
+public class Computer implements Thing{
 
 	  String makerName;
 	  // コンストラクタ
