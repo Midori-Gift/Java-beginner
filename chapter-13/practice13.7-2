@@ -1,0 +1,1 @@
+杖のpowerがprivateになっているが、setpower等外部に参照させる為の記述がWand.javaに無いため

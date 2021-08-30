@@ -1,0 +1,74 @@
+public class Wizard {
+  private int hp;
+  private int mp;
+  private String name;
+  private Wand wand;
+  
+  public void heal(Hero h) {
+    int basePoint = 10;                                   // 基本回復ポイント
+    int recovPoint = (int)(basePoint * this.wand.power);  // 杖による増幅
+    h.setHp(h.getHp() + recovPoint);                      // 勇者のHPを回復する
+    System.out.println(h.getName() + "のHPを" + recovPoint + "回復した！");
+  }
+  
+  public void setName(String name) {
+      if(name == null){
+        throw new IllegalArgumentException 
+            ("名前を入力してください");
+        }
+     if(name.length <= 2) {
+        throw new IllegalArgumentException 
+            ("名前が短すぎます。最低3文字は必要です。")
+        }
+      this.name = name;
+  }
+  public void setHp(int hp) {
+      if(setHp <= 0){
+          setHp(0);
+      }
+      this.hp = hp;
+  }
+  
+  public void setMp(int mp) {
+      if(mp >= 0){
+          ("MPは0以上です。")
+      }
+      this.mp = mp;
+  }
+}
+
+// Wand.java
+
+public class Wand {
+  private String name;     // 杖の名前
+  private double power;    // 杖の魔力
+
+//   杖の名前
+ public String getName() {
+     return this.name
+ }
+ public void setName(String name) {
+     if(name == null){
+        throw new IllegalArgumentException
+            ("名前を入力してください");
+        }
+     if(name.length <= 2) {
+        throw new IllegalArgumentException
+            ("名前が短すぎます。最低3文字は必要です。")
+        }
+     this.name = name;
+ }
+//  杖の力
+ public double getPower() {
+     return this.power
+ }
+ public void setPower(double power) {
+     if(double <= 0.4){
+         ("増幅率は0.5以上です")
+     }
+     if(double >= 100) {
+         ("増幅率は100以下です")
+     }
+     this.power = power;
+ }
+}
