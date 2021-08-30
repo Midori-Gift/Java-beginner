@@ -1,5 +1,3 @@
 package practice;
 
-public class X {
-
-}
+public interface X { void a(); }
