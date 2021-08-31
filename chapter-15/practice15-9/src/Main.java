@@ -9,6 +9,7 @@ public class Main {
 		}
 
 		String a = s.toString();
+		String[] a = s.split(",");
 		System.out.println(a);
 	}
 }
