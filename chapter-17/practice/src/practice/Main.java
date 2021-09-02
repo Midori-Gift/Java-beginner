@@ -6,13 +6,12 @@ public class Main {
 		String s = new String();
 		s = null;
 		try {
-		System.out.println(s.length());
+			System.out.println(s.length());
 		} catch (NullPointerException e) {
 			System.out.println("NullPointerException例外をcatchしました");
-		System.out.println("(ここから)--");
-		e.printStackTrace();
-		System.out.println("(ここまで)--");
+			System.out.println("(ここから)--");
+			e.printStackTrace();
+			System.out.println("(ここまで)--");
 		}
-
 	}
 }
